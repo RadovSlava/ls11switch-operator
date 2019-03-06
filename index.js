@@ -1,38 +1,27 @@
-var browser = prompt("Please eneter your Browser", "Chrome");
+var day = prompt("Please eneter youre day");
 
-debugger;
+ if (day === "Monday") {
+     alert("Working day");
+ } else if (day === "Tusday") {
+     alert("Working day");
+ } else if (day === "Wednesday") {
+     alert("Working day");
+ } else if (day === "Thursday") {
+     alert("Working day");
+ } else if (day === "Friday") {
+     alert("Working day");
+ }
 
-if (browser === "Chrome" || browser === "Mobile") {
-    alert("Chrome condition");
-} else if (browser === "Firefox") {
-    alert("Firefox condition");
-} else if (browser === "Safari") {
-    alert("Safari condition");
-} else if (browser === "Explorer") {
-    alert("Explorer condition");
-} else {
-    alert("Default");
-}
-
-switch (browser) {
-    case "Chrome":
-    case "Mobile":
-        alert("Chrome condition");
+switch (day) {
+    case "Saturday":
+        alert("a working day for some people");
         break;
 
-    case "Firefox":
-        alert("Firefox condition");
-        break;
-
-    case "Safari":
-        alert("Safari condition");
-        break;
-
-    case "Explorer":
-        alert("Explorer condition");
+    case "Sunday":
+        alert("Weekend");
         break;
 
     default:
-        alert("Default");
+        alert("Can not define, please try another value");
         break;
 }
